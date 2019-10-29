@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/static/v1?label=release&message=v6.0.0&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Russian&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Italian%20%7C%20Polish%20%7C%20Russian&color=limegreen)
 
 <div align="center"><h1></a>IWD Item Pack (WIP)</h1>
 
@@ -167,7 +167,7 @@ This component adds the Young Ned's Knucky (Amulet) in Joluv's store.
 
 #### Special Acknowledgements to:
 
-- Gwendolyne: Released version 8.0.0.
+- Gwendolyne: Released version 6.0.0.
 - Deratiseur: Provided the EE compatible version (5).
 - Lollorian: Provided the fix preventing items from turning to gold on load. 
 - Graoumf (the d'Oghmatiques): Provided French translation.
@@ -181,7 +181,6 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ###### IWD Item Pack is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Malek author, based on material from the game Baldur's Gate II and its expansion.
 ###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp.
-TODO IWD et 2
 ###### All other trademarks and copyrights are the property of their respective owners.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
@@ -193,14 +192,19 @@ TODO IWD et 2
 
 ##### Version 6.0.0 (, 2019)
 
- Major updates:
+This component allows you to choose whether to install selected options individually or all at once.
+See more detailed information about individual options below.
+
+
+The following components are available when you chose to select options individually:
+- Major updates:
 	- Renamed Setup-iwditempack.tp2 -> iwditempack.tp2 to support AL|EN's "Project Infinity".
 	- Added iwditempack.ini metadata file to support AL|EN's "Project Infinity".
-
+	- Revamped the install program which now allows you to choose whether to install selected items individually or all at once.
 	- Updated ugly and so old-scholl Appended tooltip.2da appending process and made it compatible with tooltip.2da files with more than 3 tooltips.
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
 	- Reorganized components (DESIGNATED number).
-- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
+	- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 	- Fixed wrong README file.
 	- Replaced AUTHOR keyword with SUPPORT.
 	- Added VERSION flag
